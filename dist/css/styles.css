@@ -17,15 +17,6 @@ button, select, input, option {
   border: none;
 }
 
-body {
-  background-color: lightblue;
-}
-
-.footer {
-  background-color: #1c2336;
-  color: #fff;
-}
-
 html {
   font-size: 10px;
 }
@@ -793,4 +784,13 @@ input, select, textarea {
   .prev, .next, .text {
     font-size: 11px;
   }
+}
+
+body {
+  background-color: lightblue;
+}
+
+.footer {
+  background-color: #1c2336;
+  color: #fff;
 }
