@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -550,20 +551,19 @@ input, select, textarea {
   }
 }
 
-.contact-form label {
+.contact-form label, .contact-form input {
   display: block;
   width: 100%;
   font-style: italic;
-  padding-bottom: 0.5em;
   padding-top: 1em;
 }
 
-.contact-form input {
-  display: block;
-  width: 100%;
-  font-style: italic;
+.contact-form label {
   padding-bottom: 0.5em;
-  padding-top: 1em;
+}
+
+.contact-form input {
+  padding-bottom: 0.5em;
   padding-left: 1em;
 }
 
@@ -604,7 +604,7 @@ input, select, textarea {
 .contact-form #buttonSend:hover {
   background-color: #2e3e60;
   box-shadow: 2px 4px 6px #2e3e60;
-  color: white;
+  color: #fff;
 }
 
 .xsBtn {
@@ -639,7 +639,7 @@ input, select, textarea {
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: black;
+  color: #000;
   background-color: #ffd7cb;
   border: none;
 }
@@ -693,7 +693,7 @@ input, select, textarea {
 /* Style the accordion panel. Note: hidden by default */
 .accordion-panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #fff;
   display: none;
   overflow: hidden;
 }
@@ -723,7 +723,7 @@ input, select, textarea {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #fff;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;

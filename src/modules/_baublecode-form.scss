@@ -11,9 +11,9 @@
 }
 
 .select-selected {
-  background-color:#fff;
-  border: solid 1px #e8e7e7;
-  color: #666;
+  background-color: $text-color;
+  border: solid 1px $border-form;
+  color: $dark-grey;
 }
 
 /* Style the arrow inside the select element: */
@@ -25,12 +25,12 @@
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color:  rgb(46, 62, 96) transparent transparent transparent;
+  border-color:  $border-after transparent transparent transparent;
 }
 
 /* Point the arrow upwards when the select box is open (active): */
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent rgb(46, 62, 96) transparent;
+  border-color: transparent transparent $border-after transparent;
   top: 34px;
 }
 
@@ -45,8 +45,8 @@
 /* Style items (options): */
 .select-items {
   position: absolute;
-  color: #fff;
-  background-color:rgb(46, 62, 96);
+  color: $text-color;
+  background-color:$border-after;
   top: 100%;
   left: 0;
   right: 0;
@@ -61,26 +61,22 @@
 }
 /*! Contact Form */
 input, select, textarea {
-  border: solid 1px rgb(232, 231, 231);
-  outline-color: #ffd7cb;
+  border: solid 1px $border-contact;
+  outline-color: $btn;
 }
 .contact-form {
   @include break(580px) {
       width: 60%;
   }
-  label {
+  label, input {
       display: block;
       width: 100%;
       font-style: italic;
-      padding-bottom: 0.5em;
       padding-top: 1em;
   }
+  label { padding-bottom: 0.5em; }
   input {
-      display: block;
-      width: 100%;
-      font-style: italic;
       padding-bottom: 0.5em;
-      padding-top: 1em;
       padding-left: 1em;
   }
   #txt {
@@ -90,21 +86,21 @@ input, select, textarea {
   }
   textarea {
       display: block;
-      border: solid 1px rgb(232, 231, 231);
+      border: solid 1px $border-contact;
       font-style: italic;
-      color: #d4c9c5;
+      color: $nav-color;
       padding-bottom: 0.5em;
       padding-top: 1em;
       padding-left: 1em;
   }
   #buttonSend {
-      color:  rgb(46, 62, 96);
+      color:  $border-after;
       margin-left: auto;
       font-weight: 500;
-      background-color: #ffd7cb;
+      background-color: $btn;
       border-radius: 20px;
       border: none;
-      box-shadow: 2px 4px 6px #eac1b5;
+      box-shadow: 2px 4px 6px $send;
       padding: .5rem .7rem;
       cursor: pointer;
       @include break(580px) {
@@ -112,8 +108,8 @@ input, select, textarea {
       }
   }
   #buttonSend:hover {
-      background-color: rgb(46, 62, 96);
-      box-shadow: 2px 4px 6px  rgb(46, 62, 96);
-      color: rgb(255,255,255);
+      background-color: $border-after;
+      box-shadow: 2px 4px 6px $border-after;
+      color: $text-color;
   }
 }

@@ -3,8 +3,8 @@
 .accordion {
     display: flex;
     justify-content: space-between; 
-    background-color: #f5f5f5;
-    color: #444;
+    background-color: $text-card;
+    color: $nav-background;
     cursor: pointer;
     padding: 18px;
     margin: .5rem 0;
@@ -16,13 +16,13 @@
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .accordion-active, .accordion:hover {
-    background-color: #d4c9c5;
+    background-color: $nav-color;
   }
   
   /* Style the accordion panel. Note: hidden by default */
   .accordion-panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: $text-color;
     display: none;
     overflow: hidden;
   }

@@ -1,6 +1,6 @@
 /*! Nav Bar*/
 div.navBar {
-    background-color: #d4c9c5;;
+    background-color: $nav-color;
     input[type=checkbox] {
         position: absolute;
         display: none;
