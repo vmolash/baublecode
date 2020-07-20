@@ -23,15 +23,9 @@ table {
         color: #fff;
         font-weight: bold;
     }
-    td, th {
-        font-size: 85%;
-    }
-    td:first-child {
-        max-width: 100%; 
-    }
-    th:not(:first-child) {
-        min-width: 70px;
-    }
+    td, th { font-size: 85%; }
+    td:first-child { max-width: 100%; }
+    th:not(:first-child) { min-width: 70px; }
 }
 @include break(0,760px) {
     table.responsive, .responsive thead, .responsive tbody, .responsive th, .responsive td, .responsive tr {
