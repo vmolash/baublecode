@@ -4,18 +4,10 @@ td, th {
     text-align: left;
     vertical-align: top;
 }
-.bordered td,th {
-    border: 1px solid #ccc;
-}
-.striped tr:nth-of-type(odd) {
-    background: #eee;
-}
-.striped tr:nth-of-type(even) {
-    background: lightgoldenrodyellow;
-}
-table {
-    margin-bottom: 3rem;
-}
+.bordered td,th { border: 1px solid #ccc; }
+.striped tr:nth-of-type(odd) { background: #eee; }
+.striped tr:nth-of-type(even) { background: lightgoldenrodyellow; }
+table { margin-bottom: 3rem; }
 @include break(720px) {
     table { border-collapse: collapse; }
     th {
