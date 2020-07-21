@@ -34,9 +34,7 @@ table { margin-bottom: 3rem; }
         position: relative;
         padding-left: 50%;
     }
-    .responsive td:nth-of-type(odd) {
-        border-bottom: solid 1px #fff;
-    }
+    .responsive td:nth-of-type(odd) { border-bottom: solid 1px #fff; }
     .responsive td:before {
         position: absolute;
         left: 6px;
