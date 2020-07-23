@@ -55,6 +55,4 @@ table { margin-bottom: 3rem; }
         padding-left: 10px;
     }
 }
-@include break(0px, 450px) {
-    .responsive td, .responsive th { font-size: 85%; }
-}
+@include break(0px, 450px) { .responsive td, .responsive th { font-size: 85%; } }
