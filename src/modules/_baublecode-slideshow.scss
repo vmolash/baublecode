@@ -60,6 +60,4 @@
 }
 
 /* On smaller screens, decrease text size */
-@include break(0,300px) {
-    .prev, .next,.text {font-size: 11px}
-}
+@include break(0,300px) { .prev, .next,.text {font-size: 11px} }
