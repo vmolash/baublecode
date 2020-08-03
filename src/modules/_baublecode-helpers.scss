@@ -13,7 +13,5 @@
     clear: both;
 }
 @media print {
-    .no-print, .no-print * {
-        display: none !important;
-    }
+    .no-print, .no-print * { display: none !important; }
 }
