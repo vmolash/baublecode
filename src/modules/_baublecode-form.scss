@@ -6,9 +6,7 @@
   font-style: italic;
 }
 
-.custom-select select {
-  display: none; /*hide original SELECT element: */
-}
+.custom-select select { display: none; /*hide original SELECT element: */ }
 
 .select-selected {
   background-color: $text-color;
